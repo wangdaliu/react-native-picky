@@ -180,7 +180,10 @@ rowHeightForComponent:(__unused NSInteger) component {
     }];
     [view insertSubview:label atIndex:0];
   }
-  
+  // Remove default selected background color
+  UIView *subview = [pickerView.subviews objectAtIndex:1];
+  subview.backgroundColor = [UIColor clearColor];
+
   PickyLabel* label = view.subviews[0];
   label.font = _font;
   
