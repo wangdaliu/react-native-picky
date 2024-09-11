@@ -64,5 +64,5 @@ dependencies {
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"  // From node_modules
 
-    implementation "com.github.AigeStudio:WheelPicker:21cb7b1b88"
+    implementation "com.github.AigeStudio:WheelPicker:5913fa15fc"
 }
